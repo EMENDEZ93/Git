@@ -6,4 +6,8 @@ git diff // see all changes on file - line n°
 git checkout . // delete all changes
 git log // see all changes our project
 git add filename.txt // add a specific file with changes
-git add foldername/ 
+git add foldername/
+git add css/*.css // confirm all file with extent css in forlder css
+git reset filename.html  // reset all changes of a specific file
+git reset css/*.scss  // reset all changes of all file with extent .scss
+ 
