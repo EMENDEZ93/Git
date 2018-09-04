@@ -10,4 +10,7 @@ git add foldername/
 git add css/*.css // confirm all file with extent css in forlder css
 git reset filename.html  // reset all changes of a specific file
 git reset css/*.scss  // reset all changes of all file with extent .scss
+
+Apodo
+git config --global alias.l "log" // log -> l
  
