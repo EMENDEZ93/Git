@@ -20,4 +20,7 @@ git reflog // this command we can see all commit before or after made hard commi
 git checkout branch_name // change the branch
 git merge new_branch // should be locate on master
 git branch -d branchname // delete branch
+git tag version1.0
+git tag -d version1.0
+git show version1.0 // show all details
  
