@@ -4,3 +4,4 @@ git add .
 git commit -m "commit" // -m descripcion
 git diff // see all changes on file - line n°
 git checkout . // delete all changes
+git log // see all changes our project
