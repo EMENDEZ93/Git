@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 conflickMaster
+=======
+conflictBranch
+>>>>>>> new_branch
 conflict
