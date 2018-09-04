@@ -5,3 +5,5 @@ git commit -m "commit" // -m descripcion
 git diff // see all changes on file - line n°
 git checkout . // delete all changes
 git log // see all changes our project
+git add filename.txt // add a specific file with changes
+git add foldername/ 
