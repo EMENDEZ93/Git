@@ -17,4 +17,7 @@ git commit --amend -m "new title" // change the title to the last commit
 git reset --soft commit_id // stand up on this proyect's version
 git reset --hard commit_id // put on this proyect's version, continue to work
 git reflog // this command we can see all commit before or after made hard commitgit log --oneline --decorate --all --graph // all activities and branches
+git checkout branch_name // change the branch
+git merge new_branch // should be locate on master
+git branch -d branchname // delete branch
  
