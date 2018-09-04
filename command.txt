@@ -3,4 +3,4 @@ git status // show all files in folder
 git add .
 git commit -m "commit" // -m descripcion
 git diff // see all changes on file - line n°
-
+git checkout . // delete all changes
