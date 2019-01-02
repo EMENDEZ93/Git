@@ -23,4 +23,6 @@ git branch -d branchname // delete branch
 git tag version1.0
 git tag -d version1.0
 git show version1.0 // show all details
- 
+git branch // see the branch step on
+git branch -a // show all braches
+git checkout name_branch // step on specify branch
