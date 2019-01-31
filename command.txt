@@ -1,4 +1,4 @@
-git init // begin work 
+﻿git init // begin work 
 git status // show all files in folder
 git add .
 git commit -m "commit" // -m descripcion
@@ -26,3 +26,7 @@ git show version1.0 // show all details
 git branch // see the branch step on
 git branch -a // show all braches
 git checkout name_branch // step on specify branch
+git branch new_name_branch // create new branch
+git push origin new_branch // publish to git repository
+git push origin :name_branch // delete branch on repository
+git push origin --delete name_branch // delete branch on repository
