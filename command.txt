@@ -30,3 +30,14 @@ git branch new_name_branch // create new branch
 git push origin new_branch // publish to git repository
 git push origin :name_branch // delete branch on repository
 git push origin --delete name_branch // delete branch on repository
+
+migrate repo to new repo * 
+git fetch origin
+git branch -a
+git checkout -b <branch> origin/<branch>
+git remote add new-origin git@github.com:user/repo.git
+git push --all new-origin
+git push --tags new-origin
+git remote -v
+git remote rm origin
+git remote rename new-origin origin
